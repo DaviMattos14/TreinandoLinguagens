@@ -40,6 +40,3 @@ class veiculo:
     def __validarProp(self, valor):
         if (valor >= 0): return True
         else: return False
-
- v = veiculo('a','b','c',80,0,5,0)
- car1 = veiculo('Fiat','Siena','Carlos',80,0,5,0)

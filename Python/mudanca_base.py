@@ -1,4 +1,3 @@
-from ast import Pow
 numero = int(input())
 binario = int(0)
 p = 0
