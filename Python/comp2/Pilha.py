@@ -1,6 +1,8 @@
 """
     Nome: Davi dos Santos Mattos    DRE: 119133049
 """
+
+
 class Pilha:
 
     def __init__(self, elementos=[]):  # list → list
@@ -19,7 +21,7 @@ class Pilha:
             print(self.elementos)
             print("Erro\n")
 
-    def __add__(self, other):
+    def __add__(self, other):  # list → list
         '''
             Realiza uma sobrecarga de operadror "+" através do método especial permitindo mesclar dois objetos
         '''
@@ -60,7 +62,7 @@ class Pilha:
 
 if __name__ == '__main__':
 
-# 7.a) Testando método construtor
+    # 7.a) Testando método construtor
     print('\n7.a)')
     p1 = Pilha([1, 7, 9])
     p2 = Pilha()
@@ -89,14 +91,12 @@ if __name__ == '__main__':
 
 # 7. f)
     print('\n7.f)')
-    p1 = Pilha([4,2,9]) 
-    p2 = Pilha([0,3,2])
+    p1 = Pilha([4, 2, 9])
+    p2 = Pilha([0, 3, 2])
     p3 = p2 + p1
     p4 = p1 + p2
- 
+
 
 # 7.g)
     print('\n7.g)')
     print(p3.lenPilha())
-
-
