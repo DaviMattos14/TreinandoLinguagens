@@ -11,11 +11,13 @@ class Pilha:
             recebendo uma lista e retornando uma mensagem de sucesso juntamente com os itens atribuidos,
             caso a parâmetro recebido não seja uma lista,
             ele retorna uma mensagem de erro
+
         """
         if (isinstance(elementos, list) == True):
             self.elementos = elementos
             print(self.elementos)
             print("Sucesso\n")
+            
         elif (isinstance(elementos, list) == False):
             self.elementos = []
             print(self.elementos)
