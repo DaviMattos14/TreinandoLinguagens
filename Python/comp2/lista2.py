@@ -3,7 +3,6 @@
 """
 import time
 
-
 class Caderno:
     def __init__(self, caderno=[]):
         '''
