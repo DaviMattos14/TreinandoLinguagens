@@ -1,6 +1,5 @@
 from os import system
 
-
 class Aluno:
     def __init__(self, matricula, nome, notas={}):
         self.matricula = matricula
