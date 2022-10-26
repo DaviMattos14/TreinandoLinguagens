@@ -8,4 +8,3 @@ class Pessoa:
             self.celular = celular
             self.telefone_fixo = telefone_fixo
             self.email = email
-     
