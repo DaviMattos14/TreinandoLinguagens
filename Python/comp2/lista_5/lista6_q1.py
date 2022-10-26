@@ -29,7 +29,3 @@ class Fracao():
         num = self.__numerador * outro.getDenominador()
         den = self.__denominador * outro.getNumerador()
         return Fracao(num, den)
-
-
-a = Fracao(2, 0)
-print(a)
