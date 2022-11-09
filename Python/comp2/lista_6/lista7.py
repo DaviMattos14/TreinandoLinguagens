@@ -44,7 +44,7 @@ class Janela:
             self.label2['fg'] = 'green'
         else:
             self.label2['text'] = 'ACESSO NEGADO'
-            self.label2['fg'] = 'red'
+            self.label2['fg'] = 'pink'
 
 raiz = Tk()
 Janela(raiz)
