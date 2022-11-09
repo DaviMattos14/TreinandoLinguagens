@@ -388,7 +388,7 @@ def exception_lista_notas(notas):
     try:
         lista_notas = []
         for n in notas:
-            if float(n) > 0 and float(n) < 10:
+            if float(n) >= 0 and float(n) <= 10:
                 lista_notas.append(n)
             else:
                 raise Exception(f"{n} é Nota inválida")
