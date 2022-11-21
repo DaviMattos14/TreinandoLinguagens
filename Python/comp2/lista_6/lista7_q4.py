@@ -1,5 +1,4 @@
 from tkinter import *
-
 class Main_Windown:
     def __init__(self, tk):
         self.font = ('Arial', 11)
@@ -45,6 +44,7 @@ class Main_Windown:
     def Calcular(self):
         lucro = float(str(self.txtLucro.get()).strip('%')) / 100
         valor_a_pagar = 0
+        
         if len(self.txtCarroUsado.get()) == 0:
             valor_a_pagar = float(self.txtCarroNovo.get()) + (float(self.txtCarroNovo.get())*lucro)
         else: 
