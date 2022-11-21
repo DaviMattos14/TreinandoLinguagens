@@ -1,5 +1,4 @@
 from tkinter import *
-
 class Janela:
     def __init__(self, tk):
         self.fr1 = Frame(tk)
