@@ -1,6 +1,5 @@
 from datetime import datetime
 from tkinter import *
-
 class EntradaDeCinema:
     def __init__(self, nomeDoFilme, dataDoFilme, horario, sala, valor=28):
         self.nome_do_filme = nomeDoFilme
